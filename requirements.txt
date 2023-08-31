@@ -1,0 +1,13 @@
+google-api-python-client
+yt-dlp
+beautifulsoup4
+numpy
+scipy
+pandas
+matplotlib
+seaborn
+pydub
+librosa
+scikit-image
+jupyter
+sentence-transformers
