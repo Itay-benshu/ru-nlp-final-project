@@ -39,10 +39,9 @@ def search_youtube_video(search_string, api_key):
         print("An error occurred:", e)
         return None
 
-google_api_key = "AIzaSyCMEumaI05zg05nVMt1EFVxEWiThdadvrg"
-# google_api_key = "AIzaSyBSQEYFexMdMCS0iH3RGXCzLSP6MBZGcXw"
-lyrics_api_user_id = 11977
-lyrics_api_token = 'LBt6fJrmghk6hhZQ'
+google_api_key = ""
+lyrics_api_user_id = 0
+lyrics_api_token = ''
 
 def download_song(name_and_artist:str, song_dir:str):
     if os.path.exists(f'{song_dir}/audio.wav'):
